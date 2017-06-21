@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Time Sheet</title>
+</h:head>
+<h:body style="background-color:Linen">
+	<h:form>
+		<div>
+			<div>
+				<ui:insert name="header">
+					<ui:include src="/header.xhtml"></ui:include>
+				</ui:insert>
+
+			</div>
+			<div style="position: absolute; bottom: 0; right: 0; left: 0">
+
+
+				<ui:insert name="footer">
+					<ui:include src="/footer.xhtml"></ui:include>
+				</ui:insert>
+
+			</div>
+		</div>
+	</h:form>
+</h:body>
+</html>
